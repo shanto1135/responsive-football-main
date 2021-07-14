@@ -38,7 +38,8 @@ button{
     transition: 1s ease-in-out;
     padding: 10px 24px;
     margin-left: 180px;
-      
+    /* margin-top: -170px;
+      margin-left: 350px; */
 }
 nav img{
     max-width: 60%;
@@ -53,18 +54,43 @@ button:hover {
 
 /* -----------------------
 footballer style 
--------------------------*/
+-------------------------------
+--------------------------------*/
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-   
-    
+    flex-direction: column;
+} 
+.player{
+    background: #FFFFFF;
+    width: 330px;
+    height: 474px;
+    left: 180px;
+    top: 747px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 30px;
 }
-
 .player img{
     width: 300px;
     height: 256px;
-} 
+}
+.player-name{
+    font-weight: bold;
+font-size: 28px;
+line-height: 40px;
+}
+.player p{
+
+font-size: 16px;
+
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color:#6C6C6C;
+
+}
+
 
 /* --------------------
 -------footer style 
@@ -79,6 +105,7 @@ top: 3474px;
 .footer-container{
     width: 483px;
     height: 213px;
+   margin-left: 30%;
     
     
 }
