@@ -13,6 +13,15 @@
     font-family: 'Poppins', sans-serif;
  }
 
+ /*--------------------------
+ ---media quary mobile
+ -------------------------- */
+ @media only screen and (max-width:688px){
+    .container{
+        display: grid;
+        justify-content: center;}
+ }
+
   /*----------------------
   -------- nav-banner
   ----------------------- */
@@ -87,6 +96,7 @@ footballer style
     flex-direction: column;
     grid-column-gap: 30px;
     grid-row-gap: 45px;
+    margin-bottom: 30px;
 } 
 .player{
     background: #FFFFFF;
@@ -130,7 +140,7 @@ color:#6C6C6C;
     border: 1px solid black;
     justify-content: center;
     align-content: center;
-    margin-left: 70px;
+    margin-left: 488px;
     margin-top: -40px;
     
 }
@@ -143,7 +153,7 @@ color:#6C6C6C;
 .match-title{
     font-size: 20px;
    margin-bottom: 40px;
-    margin-left: 145px;
+    margin-left: 600px;
     
     
 }
@@ -192,7 +202,7 @@ extra containt 2
     border: 1px solid rgb(3, 14, 20);
     overflow:scroll;
    justify-content: center;
-   margin-left: 580px;
+   margin-left: 485px;
    margin-bottom: 50px;
    padding: 10px;
 }
