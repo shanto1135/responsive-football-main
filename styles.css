@@ -11,16 +11,7 @@
 
  body{
     font-family: 'Poppins', sans-serif;
- }
-
- /*--------------------------
- ---media quary mobile
- -------------------------- */
- @media only screen and (max-width:688px){
-    .container{
-        display: grid;
-        justify-content: center;}
- }
+ } 
 
   /*----------------------
   -------- nav-banner
@@ -245,3 +236,20 @@ margin-left: 45%;
 footer{
     margin-bottom: 31px;
 }
+
+
+/*--------------------------
+ ---media quary mobile
+ -------------------------- */
+ @media only screen and (max-width: 768px) {
+    .players {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media only screen and (max-width: 550px) {
+    .players {
+      grid-template-columns: repeat(1, 1fr);
+    }
+   
+  }
