@@ -121,10 +121,64 @@ color:#6C6C6C;
 /* ---------------------------------
 -------------extra-containt style
 ---------------------------------- */
-section{
+.photo{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    justify-content: center;
+    align-content: center;
+    margin-left: 70px;
+    margin-top: -40px;
+    
+}
+.photo img{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    
+}  
+.match-title{
+    font-size: 20px;
+   margin-bottom: 40px;
+    margin-left: 145px;
+    
+    
+}
+.vs{
+    background-color: rgba(25, 25, 175, 0.87);
+    font-size: 20px;
+    padding: 15px;
+    display: block;
+    color: #fff;
+    width: 26px;
+    height: 20px;
+    border-radius: 10px;
+    margin-right: 31px;
 
 }
-
+.afa-img{
+    margin-right: 60px;
+}
+.brasil-img{
+    margin-left: 60px;
+    margin-right:-20px;
+}
+.match-time{
+    display: grid;
+    justify-content:space-evenly;
+    align-content:flex-end;
+    /* justify-content:end; */
+    margin-right:3px;
+    margin-left: -9px;
+    color: #2D25A0;
+}
+.match-time p{
+    padding: 9px;
+    margin-left: -1px;
+}
 /* ---------------------------------------
 -------------footer style
 --------------------------------------- */
