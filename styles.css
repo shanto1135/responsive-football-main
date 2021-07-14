@@ -179,6 +179,29 @@ color:#6C6C6C;
     padding: 9px;
     margin-left: -1px;
 }
+/* --------------
+extra containt 2  
+-----------------*/
+.blog img{
+    width: 200px;
+    height: 200px;
+}
+.copa-detail{
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgb(3, 14, 20);
+    overflow:scroll;
+   justify-content: center;
+   margin-left: 580px;
+   margin-bottom: 50px;
+   padding: 10px;
+}
+.copa-detail h1{
+    font-size: 30px;
+    font-style: bold;
+}
+
+
 /* ---------------------------------------
 -------------footer style
 --------------------------------------- */
